@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-10-10T23:01:58.780+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <header_primary
+                jcr:created="{Date}2022-10-10T22:58:48.078+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:00:37.778+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-primary"
+                trendingDesc="Instagram’s big redesign goes live with black-and-white app"
+                trendingText="Trending"/>
+            <header_secondary
+                jcr:created="{Date}2022-10-10T22:58:52.543+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:00:10.551+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-secondary"
+                displayLanguages="true"
+                languages="[English,Spanish]"
+                logo="/content/dam/capstone/images/logos.png"/>
+            <header_navigation
+                jcr:created="{Date}2022-10-10T22:59:39.244+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:00:26.048+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-navigation"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/capstone/us/en"
+                structureStart="1"/>
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2022-10-10T23:01:06.136+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:47.124+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/footer"
+                aboutText="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                footerLogo="/content/dam/news24/images/white_logo.png"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-13T12:25:29.152+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title=" Twitter PwC en Twitter: &quot;#TheNewEquation is a community of solvers coming together in unexpected ways. It's human-led and tech-powered. It's how"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T12:11:00.606+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/E45HL3dXwAQHpyr.jpg"
+                    bannerText=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-13T12:23:41.017+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T12:23:41.017+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+                <video_playlist
+                    jcr:created="{Date}2022-10-13T12:23:47.659+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T12:25:29.149+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/video-playlist"
+                    youTubeLinks="[https://www.youtube.com/embed/aM9g4r9QUsM?rel=0&amp;amp;showinfo=0,https://www.youtube.com/watch?v=29cGh-5WqCo,https://www.youtube.com/embed/aM9g4r9QUsM?rel=0&amp;showinfo=0]"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

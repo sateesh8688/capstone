@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-15T13:09:06.614+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PwC says start when you like, leave when you like"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T11:13:21.761+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/_117774602_gettyimages-1044488804.jpg"
+                    bannerText="PwC says start when you like, leave when you like"/>
+                <text_field
+                    jcr:created="{Date}2022-10-13T11:13:28.207+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T11:13:52.896+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;p>&lt;b>From now on if you work for PriceWaterhouseCooper you'll be able to work from home a couple of days a week and start as early or late as you like.&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>This summer you can knock off early on Fridays too.&lt;/p>&#xd;&#xa;&lt;p>Following the pandemic the accountancy giant is offering its staff much more control over their working pattern.&lt;/p>&#xd;&#xa;&lt;p>PwC chairman Kevin Ellis said he hoped this would make flexible working &amp;quot;the norm rather than the exception&amp;quot;.&lt;/p>&#xd;&#xa;&lt;p>&amp;quot;We want our people to feel trusted and empowered,&amp;quot; Mr Ellis said.&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.bbc.co.uk/news/business-56535575&quot;>Sunak: 'People may quit if made to work from home'&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.bbc.co.uk/news/business-56237586&quot;>'People are tired of working from home'&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.bbc.co.uk/news/business-56510574&quot;>Nationwide tells 13,000 staff to 'work anywhere'&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>A year of working from home and juggling childcare when schools were closed and other responsibilities mounted, has prompted many businesses to look again at the traditional working week.&lt;/p>&#xd;&#xa;&lt;p>The building society Nationwide has told its staff they can choose whether to work at home or in the office. Oil giant BP has told office staff they can spend two days a week working from home and several banks are examining hybrid home-office arrangements.&lt;/p>&#xd;&#xa;&lt;p>But PwC is the first of the big four accountancy firms to announce their post-pandemic strategy.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-15T13:09:06.609+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:09:06.609+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

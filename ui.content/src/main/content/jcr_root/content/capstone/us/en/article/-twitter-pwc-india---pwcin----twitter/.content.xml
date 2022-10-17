@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-14T16:25:27.991+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title=" Twitter PwC India (@PwC_IN) / Twitter"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T10:31:07.804+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/FeJHGWUUUAA7_uP.jpg"
+                    bannerText=" Twitter PwC India (@PwC_IN) / Twitter"/>
+                <text_field
+                    jcr:created="{Date}2022-10-13T10:42:09.791+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T16:25:27.859+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;p>Value Creation has never before been more important. Our study shows 94% of Asia Pacific deals that did not leverage a proactive Value Creation blueprint or methodology through acquisitions lost significant value relative to the purchase price.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-14T09:34:21.043+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T09:34:21.043+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+                <video_playlist
+                    jcr:created="{Date}2022-10-14T09:34:26.060+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T09:34:59.488+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/video-playlist"
+                    youTubeLinks="[https://www.youtube.com/embed/aM9g4r9QUsM?rel=0&amp;amp;showinfo=0,https://www.youtube.com/watch?v=441FpNdYMjU&amp;ab_channel=PwC]"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

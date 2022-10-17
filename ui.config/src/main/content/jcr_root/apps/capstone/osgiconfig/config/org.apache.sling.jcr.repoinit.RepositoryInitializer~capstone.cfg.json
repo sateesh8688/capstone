@@ -1,0 +1,8 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "scripts":[
+    "create path (sling:OrderedFolder) /content/dam/capstone",
+    "create path (nt:unstructured) /content/dam/capstone/jcr:content",
+    "set properties on /content/dam/capstone/jcr:content\r\n  set cq:conf{String} to /conf/capstone\r\n  set jcr:title{String} to \"Capstone\"\r\nend"
+  ]
+}

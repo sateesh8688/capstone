@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-15T13:09:24.673+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PwC to invest $12 billion, add 100,000 people in next five years"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T10:59:11.096+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/2021-06-16-072344750-pwc-the-new-equation.jpg"
+                    bannerText=" Consulting.us PwC to invest $12 billion, add 100,000 people in next five years"/>
+                <text_field
+                    jcr:created="{Date}2022-10-13T10:55:47.436+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T11:02:13.403+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;p>PwC Global on Tuesday announced a new international strategy that will increase focus on environmental, social, and governance (ESG) services, digital, and the concept of “trust.” The accounting and consulting network plans to invest $12 billion and add 100,000 people in the next five years.&lt;/p>&#xd;&#xa;&lt;p>The investment budget is a significant increase over the last five years, when&amp;nbsp;&lt;a title=&quot;PwC&quot; href=&quot;https://www.consulting.us/firms/pwc&quot;>PwC&lt;/a>&amp;nbsp;invested $7.4 billion and its annual revenues grew by 20% to $43 billion. The firm grew by over a quarter to 284,000 people in the last five years. The planned 100,000-person net growth will represent a headcount increase of more than a third.&lt;/p>&#xd;&#xa;&lt;p>PwC is calling its new strategy “The New Equation.” Its first pillar is building trust in a world shaken by the pandemic, social division, fractured geopolitics, and climate change. The Big Four firm says its&amp;nbsp;trust-building&amp;nbsp;will extend past&amp;nbsp;transparency and quality in reporting and compliance through to meeting rising expectations for ESG, tax morality, worker safety, and data security, among other areas.&lt;/p>&#xd;&#xa;&lt;p>The New Equation’s second pillar is the “delivery of sustained outcomes” for clients, whether in the areas of digital, people, tax, or elsewhere.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-15T13:09:24.670+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:09:24.670+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

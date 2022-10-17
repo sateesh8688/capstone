@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-15T13:09:49.974+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PwC announces record global revenues of US$50 billion"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T10:44:55.123+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/PwC_Global_Annual_Review.jpg"
+                    bannerText="PwC announces record global revenues of US$50 billion"/>
+                <text_field
+                    jcr:created="{Date}2022-10-13T10:45:05.710+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T10:46:17.971+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>Revenues up 13.4% with increasing demand for services globally&lt;/li>&#xd;&#xa;&lt;li>Workforce grows to nearly 328,000 people, creating 32,000 net new jobs&lt;/li>&#xd;&#xa;&lt;li>The New Equation strategy rolled out globally; helping clients build trust and deliver sustained outcomes&lt;/li>&#xd;&#xa;&lt;li>US$3.1 billion of investment in capabilities building&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>LONDON, Oct. 4, 2022 /PRNewswire/ --  PwC firms around the world achieved gross revenues of US$50.3 billion – up 13.4% in local currency and 11.4% in US dollars for the 12 months ending 30 June 2022. Revenue growth was strong throughout the year, following the rebound in the last quarter of FY21 as the impact of the COVID-19 pandemic subsided&lt;/p>&#xd;&#xa;&lt;p>PwC's Global Chairman, Bob Moritz, discusses the Global Annual Review and PwC's record growth and revenue.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;p>PwC's Global Annual Review. PwC firms around the world achieved gross revenues of US$50.3 billion – up 13.4% in local currency and 11.4% in US dollars for the 12 months ending 30 June 2022.&lt;/p>&#xd;&#xa;&lt;p>&lt;i>&amp;quot;In a year of rapid change and numerous challenges globally, our talented people used their broad and diverse range of capabilities to support our clients and stakeholders and to make positive contributions to society. The results we achieved in FY22 are a direct outcome of our strategy, The New Equation, which we launched in June 2021. Its impact is apparent in our financial performance. For the first time, PwC firms across the world earned gross annual revenues of more than US$50 billion. During a difficult year for the global economy, we achieved growth in all businesses while also repositioning our portfolio including 17 acquisitions and the disposal of our Global Mobility &amp;amp; Immigration business,&amp;quot;&lt;/i> said Bob Moritz, PwC's Global Chairman.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Strong performance across the world&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Across our network, PwC's community of solvers is bringing our strategy, The New Equation, to life, helping clients with what they tell us they need most – to build trust and deliver sustained outcomes. &lt;u>&lt;a href=&quot;https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpwc.to%2F3fDIuST&amp;amp;data=05%7C01%7Clnhubs%40prnewswire.com%7C492c8965ea304c53348f08daa589a7ef%7C887bf9ee3c824b88bcb280d5e169b99b%7C1%7C0%7C638004307930342705%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;amp;sdata=we3B5f%2FAjDgn1H0TcRZLT%2F1U04wLAzn%2BhskCCmFRKms%3D&amp;amp;reserved=0&quot;>The growth numbers for the full FY22 year&lt;/a>&lt;/u> reflect an increase in activity as the COVID-19 pandemic abated and as our firms managed challenges from geopolitical conflicts, including our decision to cease operations in Russia.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-15T13:09:49.970+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:09:49.970+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

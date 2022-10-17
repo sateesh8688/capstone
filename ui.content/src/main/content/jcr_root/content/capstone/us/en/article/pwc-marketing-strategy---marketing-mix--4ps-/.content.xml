@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-15T13:00:49.486+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PwC Marketing Strategy &amp; Marketing Mix (4Ps)"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:00:07.154+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/mktgmx-pwc.jpg"
+                    bannerText="PwC Marketing Strategy &amp; Marketing Mix (4Ps)"/>
+                <text_field
+                    jcr:created="{Date}2022-10-15T13:00:13.088+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:00:49.482+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;p>Marketing Strategy of PwC analyses the brand with the marketing mix framework which covers the 4Ps (Product, Price, Place, Promotion). There are several marketing strategies like product innovation, pricing approach, promotion planning etc. These business strategies, based on PwC marketing mix, help the brand succeed in the market.&lt;/p>&#xd;&#xa;&lt;p>PwC marketing strategy helps the brand/company to position itself competitively in the market and achieve its business goals &amp;amp; objectives.&lt;/p>&#xd;&#xa;&lt;p>Let us start the PwC Marketing Strategy &amp;amp; Mix to understand its product, pricing, advertising &amp;amp; distribution strategies:&lt;/p>&#xd;&#xa;&lt;p>In this article:&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.mbaskool.com/marketing-mix/services/17170-pwc.html#product&quot;>Product Strategy&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.mbaskool.com/marketing-mix/services/17170-pwc.html#price&quot;>Pricing Strategy&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.mbaskool.com/marketing-mix/services/17170-pwc.html#place&quot;>Place and Distribution Strategy&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.mbaskool.com/marketing-mix/services/17170-pwc.html#promotion&quot;>Promotional and Advertising Strategy&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.mbaskool.com/marketing-mix/services/17170-pwc.html#service&quot;>Service Strategy&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h2>PwC Product Strategy:&lt;/h2>&#xd;&#xa;&lt;p>The product strategy and mix in PwC marketing strategy can be explained as follows:&lt;/p>&#xd;&#xa;&lt;p>PricewaterhouseCoopers or PwC is one of the top consulting companies in the world. PwC is a world’s top professional service firm and it offers wide range of services like:&lt;/p>&#xd;&#xa;&lt;h3>Accounting, Audit &amp;amp; Assurance&lt;/h3>&#xd;&#xa;&lt;p>Some of the service offered by PwC under accounting are accounting, financial reporting and valuation, management consulting, risk management.&amp;nbsp;Some of the service offered under audit &amp;amp; assurance are financial statement audit, internal audit, regulatory compliance, capital market, risk assurance, IFRS reporting and many more.&lt;/p>&#xd;&#xa;&lt;h3>Consulting &amp;amp; Deals&lt;/h3>&#xd;&#xa;&lt;p>Some of the service offered in consulting are cyber security, digital services, financial risk and regulators, forensic services, strategy consulting etc. Some of the PwC services offered under deals are merger and acquisition, joint venture, spin offs, strategic alliance.&lt;/p>&#xd;&#xa;&lt;h3>People &amp;amp; Organization&lt;/h3>&#xd;&#xa;&lt;p>Some of the service offered in this segment are global pension, global employee mobility, HR related management etc.&lt;/p>&#xd;&#xa;&lt;h3>IFRS reporting&lt;/h3>&#xd;&#xa;&lt;p>PricewaterhouseCoopers offers proper application guidance for its tools and review on IFRS.&lt;/p>&#xd;&#xa;&lt;h3>Tax and Legal&lt;/h3>&#xd;&#xa;&lt;p>Some of the service offered in this segment are Entity governance and compliance, immigration, international business reorganization, M&amp;amp;A, global taxes, tax dispute resolution, transfer pricing, value chain transformation etc.&lt;/p>&#xd;&#xa;&lt;h3>Sector Services&lt;/h3>&#xd;&#xa;&lt;p>These services are offered to various industries like aerospace and defense, automotive, education, chemical, metal, technology etc.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-15T13:00:17.522+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:00:17.522+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

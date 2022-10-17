@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-14T10:03:43.077+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-10T23:02:38.698+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/PwC-ad.jpg"
+                    bannerText=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada"/>
+                <text_field
+                    jcr:created="{Date}2022-10-14T09:38:49.865+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T09:38:49.865+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-14T10:03:43.074+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T10:03:43.074+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+    <_x002d_twitter-pwc-india---pwcin----twitter/>
+    <_x002d_the-insurer-pwc--estimated-global-non-life-run-off-reserves-ris/>
+    <pwc-announces-record-global-revenues-of-us-50-billion/>
+    <award-case-study--find-out-how-pwc-managed-to-win-marketing-team/>
+    <pwc-to-invest--12-billion--add-100-000-people-in-next-five-years/>
+    <pwc-says-start-when-you-like--leave-when-you-like/>
+    <us/>
+    <pwc-s-25th-annual-global-ceo-survey/>
+    <pwc-marketing-strategy---marketing-mix--4ps-/>
+</jcr:root>

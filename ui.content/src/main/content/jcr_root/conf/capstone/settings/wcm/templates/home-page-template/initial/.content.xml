@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-13T15:34:37.434+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/home-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T22:53:40.562+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-12T19:52:00.675+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <trending
+                    jcr:created="{Date}2022-10-11T12:58:02.026+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T12:58:02.026+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending"/>
+                <banner_home
+                    jcr:created="{Date}2022-10-12T19:52:30.860+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T15:34:37.429+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-home"
+                    articleLinks="[/content/capstone/us/en/article/-the-insurer-pwc--estimated-global-non-life-run-off-reserves-ris,/content/capstone/us/en/article/-twitter-pwc-india---pwcin----twitter,/content/capstone/us/en/article/award-case-study--find-out-how-pwc-managed-to-win-marketing-team,/content/capstone/us/en/article/pwc-announces-record-global-revenues-of-us-50-billion,/content/capstone/us/en/article/pwc-says-start-when-you-like--leave-when-you-like]"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

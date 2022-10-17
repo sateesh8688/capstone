@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-15T13:08:29.484+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Award case study: Find out how PwC managed to win marketing team of the year"
+        sling:resourceType="capstone/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-10-10T23:00:51.316+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T23:01:58.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T23:02:13.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T10:51:28.732+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/pwc_edited.jpg"
+                    bannerText="Award case study: Find out how PwC managed to win marketing team of the year"/>
+                <text_field
+                    jcr:created="{Date}2022-10-13T10:51:47.392+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:08:19.709+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text-field"
+                    text="&lt;h3>Find out how PwC won marketing team of the year and&amp;nbsp;continued to grow with 31 new hires, 12 promotions and a retention rate of 91%.&amp;nbsp;&lt;/h3>&#xd;&#xa;&lt;h4>The brand they work for&amp;nbsp;&lt;/h4>&#xd;&#xa;&lt;p>At PwC, (a professional services firm providing consulting, tax, deals, risk assurance and audit services), its marketing vision is clear; to become a globally recognised, world-class marketing function, famous for its people’s innovation and commercial impact, driven by four guiding principles:&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>PwC innovates every day&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>PwC&amp;nbsp;is inclusive by default&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>PwC&amp;nbsp;tells stories that inspire&lt;/li>&#xd;&#xa;&lt;li>PwC&amp;nbsp;delivers commercial impact with purpose&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h4>Commercial challenges&amp;nbsp;&lt;/h4>&#xd;&#xa;&lt;p>Responses to key challenges:&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Challenge:&amp;nbsp;Skills requirements and demands on specialists teams have evolved&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Response: Redefining its people strategy&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Outcome: The right people, in the right teams, doing the right jobs with the right skills&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Challenge:&amp;nbsp;A cry for more clarity and consistency in how PwC&amp;nbsp;works, to deploy centralised teams in a truly agile way&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Response: A new marketing methodology by way of ‘Our Marketing Playbook’&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Outcome: Enhanced team experiences and delivery of outstanding campaign performance&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Challenge:&amp;nbsp;Competing demand from across the business, with siloed working, resource constraints and the pressing need to prioritise&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Response: A unifying strategy and planning process, using a sophisticated set of models to make decisions&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Outcome: Business buy-in and recognition at board level like never before&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Challenge: Responding to COVID-19 and adapting to new working practices&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Response: Pivoting and mobilising the team against a new set of immediate priorities&lt;/li>&#xd;&#xa;&lt;li>Outcome: Protecting jobs and salaries whilst supporting health and wellbeing&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-15T13:08:29.481+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-15T13:08:29.481+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
