@@ -40,8 +40,7 @@ public class TrendingSubservice {
  		
 		 Map<String, Object> params = new HashMap<>();
 		 params.put(ResourceResolverFactory.SUBSERVICE, SUB_SERVICE_NAME);	
-		 ResourceResolver resolver = factory.getServiceResourceResolver(params);	
-		return resolver;
+		 return factory.getServiceResourceResolver(params);
 		 
 	 }
 
